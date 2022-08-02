@@ -1,7 +1,7 @@
 import { render, screen, fireEvent} from '@testing-library/react';
 import { unmountComponentAtNode } from 'react-dom';
 import App from './App';
-
+// This is to make sure the correct stuff was pushed
 let container = null;
 beforeEach(() => {
   // setup a DOM element as a render target
